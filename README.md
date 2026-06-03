@@ -29,7 +29,7 @@ Open to **Werkstudent roles** in Production Analytics · Shopfloor Digitalizatio
 
 ## Projects
 
-### [Industrial Supply Chain — Automated ETL Pipeline & BI Dashboard](https://github.com/YashBarhanpurkar/supply-chain-analytics-dashboard)
+### [Industrial Supply Chain — Automated ETL Pipeline & BI Dashboard](https://github.com/YashBarhanpurkar/Industrial-Supply-Chain-Automated-ETL-Pipeline-Analytics-Dashboard)
 > Config-driven Python ETL framework that ingests 180,000+ rows of multilingual logistics data, normalizes it into a 7-table Star Schema SQLite database, and powers a Power BI operational dashboard for delivery performance analysis.
 
 **What makes it non-trivial:** Zero hardcoded logic — all schemas, paths, and mapping rules live in `settings.json`. Quarantine-not-crash validation isolates corrupt rows without stopping the run. Composite Geography Key synthesized from multi-source location strings to prevent join failures. Fact tables split by analytical purpose (logistics vs. financial) to avoid many-to-many traps.
